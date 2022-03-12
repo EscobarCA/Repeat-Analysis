@@ -1,0 +1,4 @@
+rep_start  rep_end    rep_num distance geneID     name           seq_type  gene_start gene_end     chromosome  
+Total number of 5pUTR with repeats: 0
+Total number of 3pUTR with repeats: 0
+Total number of CDS with repeats: 0

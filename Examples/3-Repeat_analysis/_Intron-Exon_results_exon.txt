@@ -1,0 +1,2 @@
+rep_start  rep_end    rep_num distance geneID     name           seq_type  gene_start gene_end     chromosome  
+Total number of exons with repeats: 0
