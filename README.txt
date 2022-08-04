@@ -17,7 +17,7 @@ code uses regular expression, this code needs two regular expression patterns, o
 another for the antisense strand (see example). The code will output a file with repeats found at each sequence 
 describing where the repeat sequence starts and ends, number of repeats, and the actual nucleotide sequence.
 
-Analysis for Human genome was performed only for chromosomes 1 to 22, X and Y. Files can be downloaded at https://www.ncbi.nlm.nih.gov/genome/51?genome_assembly_id=582967
+Analysis for Human genome was performed only for chromosomes 1 to 22, X and Y of assembly GRCh38.p14. Files can be downloaded at https://www.ncbi.nlm.nih.gov/genome/51?genome_assembly_id=1820449
 
 Parsing genome annotation (get_genes.py and sequence.py)
 
@@ -26,10 +26,10 @@ was filtered to only consider sequences classified as ‘gene’. The get_genes.
 in gff format and the sequence.py file, which contains object definitions. This code will output the annotation
 for each genomic sequence (chromosomes and other) in JSON format for easy access. The full repeat analysis only
 considered the annotation for chromosomes 1 to 22, X and Y 
-(see https://www.ncbi.nlm.nih.gov/genome/51?genome_assembly_id=582967 for each chromosome RefSeq code)
+(see https://www.ncbi.nlm.nih.gov/genome/51?genome_assembly_id=1820449 for each chromosome RefSeq code)
 
 Annotation of human genome can be downloaded here:
-https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/405/GCF_000001405.39_GRCh38.p13/GCF_000001405.39_GRCh38.p13_genomic.gff.gz
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/405/GCF_000001405.40_GRCh38.p14/GCF_000001405.40_GRCh38.p14_genomic.gff.gz
 
 Repeat analysis (repeat_analysis.py, sequence.py)
 
